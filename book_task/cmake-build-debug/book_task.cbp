@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="book_task"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="book_task">
+				<Option output="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/book_task" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 book_task"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="book_task/fast">
+				<Option output="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/book_task" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 book_task/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_4/cpt_4_q_27.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_4/cpt_4_q_34.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_4/cpt_4_q_36.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_5/cpt_5_q_12.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_5/cpt_5_q_23.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_6/cpt_6_q_11.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_6/cpt_6_q_30.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_6/cpt_6_q_38_39.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/cpt_7/cpt_7_q_24.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/main.cpp">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_expcetion_handle.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_inline.cpp">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_inline.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_operator_override_arr.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_placement_new.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/playground/playground_return_tricky.h">
+			<Option target="book_task"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/book_task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

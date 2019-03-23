@@ -1,0 +1,3 @@
+/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nizhenyang/my-project/back-end/c_c++/book_task/cmake-build-debug/CMakeFiles/book_task.dir

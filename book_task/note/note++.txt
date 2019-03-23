@@ -1,0 +1,156 @@
+=========
+
+char str[2][3]={“a”,”b”};
+* 二维数组，一个维度存储一个字符串
+
+=========
+
+char* a[ ] = { "hello", "the", "world"};
+* 二维指针， int **p = a ，p++是指向了下一个字符串
+
+=========
+
+a=5、b=6、c=7、d=8、m=2、n=2,逻辑表达式（m=a>b）&&(n=c>d)运算后，n的值为
+* m=a>b后m=0，表达式为假，&&后半部分不会操作，因此n为初始值2
+
+=========
+
+int i = 0;
+std::cout << (i = 0) << std::endl;
+* 输入为 0
+
+=========
+
+typedef struct ST{ long a; int b; char c[2]; } NEW;
+* 结构体类型名称：struct ST 或 NEW
+
+=========
+
+虚函数能否为inline?
+* 可以
+
+==============
+
+class A {
+public:
+    virtual void func(int val = 1) {
+        std::cout << "A->" << val << std::endl;
+    }
+    virtual void test() {
+        func();
+    }
+};
+
+class B : public A {
+public:
+    void func(int val = 0) {
+        std::cout << "B->" << val << std::endl;
+    }
+};
+求输出
+* B->1
+(1) 由于B类中没有覆盖（重写）基类中的虚函数test()，因此会调用基类A中的test()；
+(2) A中test()函数中继续调用虚函数 fun()，因为虚函数执行动态绑定，p此时的动态类型（即目前所指对象的类型）为B*，因此此时调用虚函数fun()时，执行的是B类中的fun()；所以先输出“B->”；
+(3) 缺省参数值是静态绑定，即此时val的值使用的是基类A中的缺省参数值，其值在编译阶段已经绑定，值为1，所以输出“1”；
+最终输出“B->1”。切记：绝不重新定义继承而来的缺省参数值！
+另：缺省值只能出现在声明中，而不能出现在定义里
+    多个参数时，参数只能由后往前缺省。
+
+
+=========
+
+演示一下.*(成员指针运算符)的使用
+
+class T {
+public:
+    int data;
+
+    void add(int add_data) {
+        this->data = 0;
+        this->data += add_data;
+    }
+};
+int main() {
+    int T::*dp;
+    void (T::*fp)(int x);
+    T t;
+
+    dp = &T::data;
+    fp = &T::add;
+
+    (t.*fp)(7);
+    std::cout << (t.*dp) << std::endl;
+
+}
+
+======
+
+是否会报错
+class A {
+public:
+    int m;
+    void print() {  std::cout << "A\n";  }
+};
+
+int main() {
+    A *pa = 0;
+    pa->print();
+}
+
+* 不会，只要不访问类成员就行
+
+======
+
+求下列输出
+char *c[] = {"ENTER","NEW","POINT","FIRST"};
+char **cp[] = { c + 3 , c + 2 , c + 1 , c};
+char ***cpp = cp;
+int main(void)
+{
+    printf("%s",**++cpp);
+    printf("%s",*--*++cpp+3);
+    printf("%s",*cpp[-2]+3);
+    printf("%s\n",cpp[-1][-1]+1);
+    return 0;
+}
+
+FIRST POINT NEW ENTER
+
+1. printf("%s",**++cpp); 
+++cpp的值是cp+1，引用一次后是cp[1]再引用是*cp[1]=c[2]="POINT"，第一句的输出
+2. printf("%s",*--*++cpp+3); 
+再++cpp的值是cp+2，引用一次是cp[2]=c+1，再对这进行--，减后是c再引用是c[0]="ENTER"再+3，字符串指针指到"ER"，输出是"ER"
+3. printf("%s",*cpp[-2]+3); 
+这时cpp的值是cp+2，cpp[-2]=*(cpp-2)=*(cp+2-2)=cp[0]=c+3，再引用是c[3]="FIRST",+3 字符串指针指到"ST"，输出是"ST"
+4. printf("%s\n",cpp[-1][-1]+1); 
+cpp还是cp+2，cpp[-1]=*(cpp-1)=*(cp+2-1)=cp[1]=c+2，再[-1]得*(c+2-1)=c[1]="NEW",+1字符串指针指到"EW"，输出是"EW"。
+
+========
+
+string是传值参数，不能修改其值
+
+========
+
+enum s{
+    x1,
+    x2,
+    x3=10,
+    x4,
+    x5,
+} x;
+
+x -> 0, x1 -> 0, x3 -> 10 x4 -> 11
+
+========
+
+析构函数调用顺序
+C c;
+void main()
+{
+    A*pa=new A();
+    B b;
+    static D d;
+    delete pa;
+}
+
+ABDC

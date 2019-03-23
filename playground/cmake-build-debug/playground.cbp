@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="playground"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground">
+				<Option output="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground/fast">
+				<Option output="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nizhenyang/my-project/back-end/c_c++/playground/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt10/date.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt10/friend.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt10/static.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt11/obj.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt11/proxy.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt11/proxy.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt12/inherit/base.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt12/inherit/base2.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt12/inherit/child.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt12/inherit/test.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/Batman.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/Batman.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/Hero.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/HeroTest.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/Superman.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt13/task/content.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt14/tmp_special.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt14/tmp_static.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt15/cpt15_userinput.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt16/cpt16_auto_ptr.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt16/cpt16_exception.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt17/cpt17_handle_binary.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt17/cpt17_handlefile.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt18_string/cpt_18_str_basic.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt19_algorithm/cpt19_algorithm_binary_search.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt19_algorithm/cpt19_algorithm_util.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt20_data_structure/linklist/linklist.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt20_data_structure/linklist/linklist.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt20_data_structure/linklist/linklist_test.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt20_data_structure/linklist/listnode.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt21_c_style_program/cpt21_c_bit_opt.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt21_c_style_program/cpt21_c_str_num.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt21_c_style_program/cpt21_c_structure.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt22_stl/cpt22_stl_algorithm.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt22_stl/cpt22_stl_sequence.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt22_stl/cpt_22_stl_relevance.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt3/code1_58.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt4/float_precise.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt7/readfile.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt7/static.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt7/vector.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt8/maze/MazeData.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt8/maze/NewMaze.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt8/maze/Pointe.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt8/ptr.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book/cpt9/obj.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task_14.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task_15.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task_16.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task_17.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt15/cpt15_q_task_18.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt17/cpt16_q_task_11.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt17/cpt16_q_task_12.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt17/cpt16_q_task_14.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_12.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_13.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_19.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_20.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_21.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_22.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_23.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_24.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_30.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_7.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_8.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt18/cpt18_q_task_9.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt19/cpt19_cal/cal_caler.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt19/cpt19_cal/cal_main.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt19/cpt19_cal/cal_parser.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt19/cpt19_cal/cal_stack.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_10/cpt21_10.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_11_12/cpt21_11_12.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_13_14/cpt21_13_14.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_15/cpt21_15.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_18/cpt21_18.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_19/cpt21_19.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_20/cpt21_20.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_21/cpt21_21.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_22/cpt21_22.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_23/cpt21_23.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_24/cpt21_24.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_25/cpt21_25.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_26/cpt21_26.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_28/cpt21_28.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_29/cpt21_29.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_30/cpt21_30.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_38/cpt21_38.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_40/cpt21_40.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_41/cpt21_41.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_42/cpt21_42.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/book_task/cpt21/cpt21_9/cpt21_9.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/demo/cin_test.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/final/final_task_3.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/main.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/memset/myfirst.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/explicit.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/inline.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/inline.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/overloading.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/template.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/playground/virtual.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/task/task_1/quze1/quze1.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/task/task_1/quze2/quze2.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/task/task_2/quze1/quze1.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="/Users/nizhenyang/my-project/back-end/c_c++/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

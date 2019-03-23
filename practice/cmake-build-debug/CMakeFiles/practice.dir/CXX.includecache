@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nizhenyang/my-project/back-end/c_c++/practice/main.cpp
+task/2013/task17/task_2013_17.h
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task17/task_2013_17.h
+task/2013/task3_2/task_2013_task3_2.h
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task3_2/task_2013_task3_2.h
+task/2013/task3_3/task_2013_task3_3.h
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task3_3/task_2013_task3_3.h
+
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task17/task_2013_17.h
+iostream
+-
+
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task3_2/task_2013_task3_2.h
+cstring
+-
+iostream
+-
+
+/Users/nizhenyang/my-project/back-end/c_c++/practice/task/2013/task3_3/task_2013_task3_3.h
+fstream
+-
+iostream
+-
+cctype
+-
+
